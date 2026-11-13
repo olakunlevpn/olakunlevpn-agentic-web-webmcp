@@ -1,0 +1,1 @@
+Publishes an ard.json catalog and links it in robots.txt so AI crawlers can discover your forum tools.

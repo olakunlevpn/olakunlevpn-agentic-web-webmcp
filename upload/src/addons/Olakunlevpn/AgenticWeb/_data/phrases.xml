@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="cron_entry.olAgenticWebLlms" version_id="1000070" version_string="1.0.0"><![CDATA[[Olakunlevpn] Agentic Web: Regenerate llms.txt]]></phrase>
+  <phrase title="option.ol_agentic_web_a11y_labels" version_id="1000370" version_string="1.0.3"><![CDATA[Enhance Accessibility Labels]]></phrase>
+  <phrase title="option.ol_agentic_web_a11y_live" version_id="1000370" version_string="1.0.3"><![CDATA[Live Content Updates]]></phrase>
+  <phrase title="option.ol_agentic_web_ad_min_height" version_id="1000370" version_string="1.0.3"><![CDATA[Reserved Ad Height (px)]]></phrase>
+  <phrase title="option.ol_agentic_web_anticls_enable" version_id="1000370" version_string="1.0.3"><![CDATA[Stabilize Page Layout]]></phrase>
+  <phrase title="option.ol_agentic_web_ard_enable" version_id="1000370" version_string="1.0.3"><![CDATA[Agent Discovery Manifest (ard.json)]]></phrase>
+  <phrase title="option.ol_agentic_web_ard_queries" version_id="1000370" version_string="1.0.3"><![CDATA[Sample Search Queries for AI]]></phrase>
+  <phrase title="option.ol_agentic_web_enable" version_id="1000070" version_string="1.0.0"><![CDATA[Enable Agentic Web & WebMCP]]></phrase>
+  <phrase title="option.ol_agentic_web_llms_include_rules" version_id="1000070" version_string="1.0.0"><![CDATA[Include Forum Rules in llms.txt]]></phrase>
+  <phrase title="option.ol_agentic_web_llmstxt_enable" version_id="1000370" version_string="1.0.3"><![CDATA[Enable llms.txt Discovery]]></phrase>
+  <phrase title="option.ol_agentic_web_mcp_enable" version_id="1000370" version_string="1.0.3"><![CDATA[Enable WebMCP Browser Tools]]></phrase>
+  <phrase title="option.ol_agentic_web_rate_limit" version_id="1000370" version_string="1.0.3"><![CDATA[WebMCP Rate Limit]]></phrase>
+  <phrase title="option.ol_agentic_web_site_summary" version_id="1000370" version_string="1.0.3"><![CDATA[Site Overview for AI]]></phrase>
+  <phrase title="option.ol_agentic_web_stats_min_height" version_id="1000070" version_string="1.0.0"><![CDATA[Reserved Live Statistics Height (px)]]></phrase>
+  <phrase title="option.ol_agentic_web_tools" version_id="1000070" version_string="1.0.0"><![CDATA[Active WebMCP Tools]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_a11y_labels" version_id="1000370" version_string="1.0.3"><![CDATA[Adds clear labels to icon-only buttons, menus, and links so AI agents and screen readers understand what each control does.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_a11y_live" version_id="1000370" version_string="1.0.3"><![CDATA[Notifies AI agents about real-time updates (like live statistics and alerts) without needing a full page reload.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_ad_min_height" version_id="1000370" version_string="1.0.3"><![CDATA[Space kept ready for banner ads so the page does not jump down when ads finish loading.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_anticls_enable" version_id="1000370" version_string="1.0.3"><![CDATA[Reserves space for ads and dynamic widgets so the page does not jump or shift while loading.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_ard_enable" version_id="1000370" version_string="1.0.3"><![CDATA[Publishes an ard.json catalog and links it in robots.txt so AI crawlers can discover your forum tools.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_ard_queries" version_id="1000370" version_string="1.0.3"><![CDATA[Example search queries (one per line) to help AI search engines match user questions to your forum topics. 2 to 5 recommended.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_enable" version_id="1000370" version_string="1.0.3"><![CDATA[Master switch for all AI agent tools, llms.txt endpoints, accessibility enhancements, and layout stabilization.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_llms_include_rules" version_id="1000370" version_string="1.0.3"><![CDATA[Appends your forum rules and terms to llms.txt so visiting AI agents follow community guidelines.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_llmstxt_enable" version_id="1000370" version_string="1.0.3"><![CDATA[Generates clean Markdown files at /llms.txt and /llms-full.txt to help AI crawlers index your forum efficiently.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_mcp_enable" version_id="1000370" version_string="1.0.3"><![CDATA[Lets AI agents in modern browsers (like Chrome AI, Gemini, and Claude) search discussions and read public threads.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_rate_limit" version_id="1000370" version_string="1.0.3"><![CDATA[Maximum requests per minute per IP address to protect your server from aggressive AI traffic.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_site_summary" version_id="1000370" version_string="1.0.3"><![CDATA[A short introduction to your forum for AI visitors via llms.txt. Leave empty to use your default board title and description.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_stats_min_height" version_id="1000370" version_string="1.0.3"><![CDATA[Space kept ready for the live statistics block so discussions stay in place while threads load.]]></phrase>
+  <phrase title="option_explain.ol_agentic_web_tools" version_id="1000370" version_string="1.0.3"><![CDATA[Choose which actions AI agents are allowed to perform.]]></phrase>
+  <phrase title="option_group.ol_agentic_web" version_id="1000070" version_string="1.0.0"><![CDATA[[Olakunlevpn] Agentic Web & WebMCP]]></phrase>
+  <phrase title="option_group_description.ol_agentic_web" version_id="1000370" version_string="1.0.3"><![CDATA[Settings for WebMCP browser tools, llms.txt discovery, accessibility enhancements, and page layout stability.]]></phrase>
+</phrases>

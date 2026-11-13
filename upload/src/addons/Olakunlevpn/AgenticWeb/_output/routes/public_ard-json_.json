@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "ard-json",
+    "sub_name": "",
+    "format": "",
+    "build_class": "",
+    "build_method": "",
+    "controller": "Olakunlevpn\\AgenticWeb:Ard",
+    "context": "",
+    "action_prefix": ""
+}

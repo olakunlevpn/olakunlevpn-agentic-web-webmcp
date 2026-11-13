@@ -1,0 +1,32 @@
+{
+    "ol_agentic_web_a11y_labels.json": {
+        "hash": "616e0213c9d8c55da691e498beff9a13"
+    },
+    "ol_agentic_web_a11y_live.json": {
+        "hash": "c84cb9139309f5d5c830df4e4e29576d"
+    },
+    "ol_agentic_web_ad_min_height.json": {
+        "hash": "e92bd20bdd88853cc107d6f556c66050"
+    },
+    "ol_agentic_web_anticls_enable.json": {
+        "hash": "5e5fef2939f80239fcb91d7048bf8fb6"
+    },
+    "ol_agentic_web_enable.json": {
+        "hash": "1f7f9f90489ad254c522c8fe16a7373b"
+    },
+    "ol_agentic_web_llms_include_rules.json": {
+        "hash": "2bd2b0455ef3364a473cc493d7463c68"
+    },
+    "ol_agentic_web_llmstxt_enable.json": {
+        "hash": "28c2c91e7bcf71573491c290dcb2296d"
+    },
+    "ol_agentic_web_mcp_enable.json": {
+        "hash": "26cd2c82b33f98ee7ecd69eccd535f44"
+    },
+    "ol_agentic_web_rate_limit.json": {
+        "hash": "e281316608da7200f39928f372dbfd16"
+    },
+    "ol_agentic_web_stats_min_height.json": {
+        "hash": "eef33a6104fc02996947a7f30a88a0b9"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "template": "search_form",
+    "description": "Annotates full search form with declarative WebMCP attributes",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:form action=\"{{ link('search/search') }}\" class=\"block\" ajax=\"true\">",
+    "replace": "<xf:form action=\"{{ link('search/search') }}\" class=\"block\" ajax=\"true\" toolname=\"search_forum\" tooldescription=\"Comprehensive forum search across threads, posts, tags, and authors\">"
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cron>
+  <entry entry_id="olAgenticWebLlms" cron_class="Olakunlevpn\AgenticWeb\Cron\LlmsGenerator" cron_method="regenerate" active="1"><![CDATA[{"day_type":"dom","dom":[-1],"hours":[0],"minutes":[0]}]]></entry>
+</cron>

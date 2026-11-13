@@ -1,0 +1,140 @@
+{
+    "cron_entry.olAgenticWebLlms.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "559e2a6afee34665c25186270c55b798"
+    },
+    "option.ol_agentic_web_a11y_labels.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ead478a45889f7f336ac26e43c593a5a"
+    },
+    "option.ol_agentic_web_a11y_live.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ff58263693977171315c1740aeec5e91"
+    },
+    "option.ol_agentic_web_ad_min_height.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "468feefb94b2456f9d5e979e2751b740"
+    },
+    "option.ol_agentic_web_anticls_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6d0b5bf909bfaf5273089880be9d0aa9"
+    },
+    "option.ol_agentic_web_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "3ff6ba196db5a4e3dd4cb47ccbec7180"
+    },
+    "option.ol_agentic_web_llms_include_rules.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "5d6de1f48c701580fa0a37c31a20cb6d"
+    },
+    "option.ol_agentic_web_llmstxt_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "b50a162f1dc7f4b3bde600ccd1e0002a"
+    },
+    "option.ol_agentic_web_mcp_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "441d230060d95ac6c4a141e458e4cafd"
+    },
+    "option.ol_agentic_web_rate_limit.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "9d667f5335f4ddc3a3bc5b4d81e9c723"
+    },
+    "option.ol_agentic_web_stats_min_height.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "b1770357d9e3f4199856abe903d98f6c"
+    },
+    "option_explain.ol_agentic_web_a11y_labels.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "a140e73790d81e8f6b11efd1bfea0a57"
+    },
+    "option_explain.ol_agentic_web_a11y_live.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "08aaa2260eb4378ae4060a8ce11e840e"
+    },
+    "option_explain.ol_agentic_web_ad_min_height.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "1fb0b4f3baa839e4eeea07d787258a26"
+    },
+    "option_explain.ol_agentic_web_anticls_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "abaaf13d56925f444372cd6edc35580b"
+    },
+    "option_explain.ol_agentic_web_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "8657dfaf3a0a9fc1831f206a23cf8b38"
+    },
+    "option_explain.ol_agentic_web_llms_include_rules.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d311ebcfca1c84e790eacc6841a2e0b3"
+    },
+    "option_explain.ol_agentic_web_llmstxt_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "3dd6ed3a8316d956aba823c20fac2964"
+    },
+    "option_explain.ol_agentic_web_mcp_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ba76968126dc21074d3b4fa86bbbf59c"
+    },
+    "option_explain.ol_agentic_web_rate_limit.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "f65e3ff117eda87987cebca64e455da3"
+    },
+    "option_explain.ol_agentic_web_stats_min_height.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "8d76f5d9568ad55769bf959e26a36d09"
+    },
+    "option_group.ol_agentic_web.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "bb87428c3396bd207a9f846c69c410f2"
+    },
+    "option_group_description.ol_agentic_web.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "01b3ad46f150058a94375f398033d154"
+    }
+}

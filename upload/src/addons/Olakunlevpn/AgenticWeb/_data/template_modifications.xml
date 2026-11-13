@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="PAGE_CONTAINER" modification_key="ol_agentic_web_inject_head" description="Injects WebMCP bridge, llms.txt discovery links, a11y shield, and anti-CLS layout stabilization into PAGE_CONTAINER" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[</head>]]></find>
+    <replace><![CDATA[<xf:include template="ol_agentic_web_head" />
+$0]]></replace>
+  </modification>
+  <modification type="public" template="PAGE_CONTAINER" modification_key="ol_agentic_web_nav_menutrigger" description="Provides accessible aria-label to responsive navigation menu trigger" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[class="p-nav-menuTrigger"]]></find>
+    <replace><![CDATA[class="p-nav-menuTrigger" aria-label="{{ phrase('menu') }}"]]></replace>
+  </modification>
+  <modification type="public" template="PAGE_CONTAINER" modification_key="ol_agentic_web_search_form" description="Annotates quick search form with declarative WebMCP tool metadata" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<form action="{{ link('search/search') }}" method="post"]]></find>
+    <replace><![CDATA[<form action="{{ link('search/search') }}" method="post" toolname="search_forum" tooldescription="Search forum discussions, marketplace listings, threads, and member posts"]]></replace>
+  </modification>
+  <modification type="public" template="PAGE_CONTAINER" modification_key="ol_agentic_web_search_keywords" description="Annotates quick search keywords textbox with toolparamdescription" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:textbox name="keywords"]]></find>
+    <replace><![CDATA[<xf:textbox name="keywords" toolparamdescription="Keywords or search terms to query forum discussions"]]></replace>
+  </modification>
+  <modification type="public" template="node_list_category" modification_key="ol_agentic_web_node_icon_category" description="Adds tabindex=-1 to aria-hidden category node icon" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[class="node-icon" aria-hidden="true"]]></find>
+    <replace><![CDATA[class="node-icon" aria-hidden="true" tabindex="-1"]]></replace>
+  </modification>
+  <modification type="public" template="node_list_forum" modification_key="ol_agentic_web_node_icon_forum" description="Adds tabindex=-1 to aria-hidden node icon link so it is not focusable" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[class="node-icon" aria-hidden="true"]]></find>
+    <replace><![CDATA[class="node-icon" aria-hidden="true" tabindex="-1"]]></replace>
+  </modification>
+  <modification type="public" template="node_list_link_forum" modification_key="ol_agentic_web_node_icon_link_forum" description="Adds tabindex=-1 to aria-hidden link forum node icon" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[class="node-icon" aria-hidden="true"]]></find>
+    <replace><![CDATA[class="node-icon" aria-hidden="true" tabindex="-1"]]></replace>
+  </modification>
+  <modification type="public" template="node_list_page" modification_key="ol_agentic_web_node_icon_page" description="Adds tabindex=-1 to aria-hidden page node icon" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[class="node-icon" aria-hidden="true"]]></find>
+    <replace><![CDATA[class="node-icon" aria-hidden="true" tabindex="-1"]]></replace>
+  </modification>
+  <modification type="public" template="node_list_search_forum" modification_key="ol_agentic_web_node_icon_search_forum" description="Adds tabindex=-1 to aria-hidden search forum node icon" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[class="node-icon" aria-hidden="true"]]></find>
+    <replace><![CDATA[class="node-icon" aria-hidden="true" tabindex="-1"]]></replace>
+  </modification>
+  <modification type="public" template="search_form" modification_key="ol_agentic_web_full_search" description="Annotates full search form with declarative WebMCP attributes" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:form action="{{ link('search/search') }}" class="block" ajax="true">]]></find>
+    <replace><![CDATA[<xf:form action="{{ link('search/search') }}" class="block" ajax="true" toolname="search_forum" tooldescription="Comprehensive forum search across threads, posts, tags, and authors">]]></replace>
+  </modification>
+  <modification type="public" template="search_form_macros" modification_key="ol_agentic_web_macro_keywords" description="Annotates keywords macro input with toolparamdescription" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:textbox type="search" name="keywords"]]></find>
+    <replace><![CDATA[<xf:textbox type="search" name="keywords" toolparamdescription="Keywords to search across forum content"]]></replace>
+  </modification>
+</template_modifications>

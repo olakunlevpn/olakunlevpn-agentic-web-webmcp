@@ -1,0 +1,34 @@
+<xf:if is="$xf.options.ol_agentic_web_enable && $xf.options.ol_agentic_web_anticls_enable">
+/* [Olakunlevpn] Agentic Web: Anti-CLS Layout Shift Shield for AI Agents */
+.block--ad-banner,
+.samItem,
+[data-ad-position] {
+	min-height: {$xf.options.ol_agentic_web_ad_min_height}px;
+	contain-intrinsic-size: 728px {$xf.options.ol_agentic_web_ad_min_height}px;
+}
+
+.dcom-live-statistic,
+.block--liveStatistic {
+	min-height: {$xf.options.ol_agentic_web_stats_min_height}px;
+	contain-intrinsic-size: 100% {$xf.options.ol_agentic_web_stats_min_height}px;
+}
+
+.avatar {
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+}
+
+.structItem-cell--icon {
+	min-width: 48px;
+}
+
+.p-header-logo img {
+	aspect-ratio: auto;
+	max-height: 80px;
+}
+
+.notice-bar,
+.notice--cookie {
+	contain: layout;
+}
+</xf:if>

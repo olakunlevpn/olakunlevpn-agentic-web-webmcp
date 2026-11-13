@@ -1,0 +1,25 @@
+{
+    "legacy_addon_id": "",
+    "title": "[Olakunlevpn] Agentic Web & WebMCP",
+    "description": "Full compliance suite for Google Chrome Lighthouse Agentic Browsing: exposes WebMCP API tools, declarative forms, Agentic Resource Discovery (ard.json), dynamic llms.txt, machine-eye a11y tree, and anti-CLS layout stabilization.",
+    "version_id": 1000470,
+    "version_string": "1.0.4",
+    "dev": "Olakunlevpn",
+    "dev_url": "https://maylancer.org",
+    "faq_url": "",
+    "support_url": "https://maylancer.org/support",
+    "extra_urls": {
+        "Product Information": "https://maylancer.org/products"
+    },
+    "require": {
+        "XF": [
+            2030070,
+            "XenForo 2.3.0+"
+        ],
+        "php": [
+            "8.0.0",
+            "PHP 8.0.0+"
+        ]
+    },
+    "icon": "fad fa-robot"
+}

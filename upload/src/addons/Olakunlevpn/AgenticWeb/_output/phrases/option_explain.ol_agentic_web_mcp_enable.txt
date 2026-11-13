@@ -1,0 +1,1 @@
+Lets AI agents in modern browsers (like Chrome AI, Gemini, and Claude) search discussions and read public threads.

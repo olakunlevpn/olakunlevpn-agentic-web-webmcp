@@ -1,0 +1,9 @@
+{
+    "template": "node_list_link_forum",
+    "description": "Adds tabindex=-1 to aria-hidden link forum node icon",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "class=\"node-icon\" aria-hidden=\"true\"",
+    "replace": "class=\"node-icon\" aria-hidden=\"true\" tabindex=\"-1\""
+}

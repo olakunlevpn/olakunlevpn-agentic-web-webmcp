@@ -1,0 +1,18 @@
+{
+    "edit_format": "checkbox",
+    "edit_format_params": "searchForum=searchForum (Search discussions and threads)\ngetThread=getThread (Fetch structured thread content & replies)\ngetNodeList=getNodeList (Fetch forum categories & structure)\ngetRecentDiscussions=getRecentDiscussions (Fetch latest active topics)",
+    "data_type": "array",
+    "sub_options": [
+        "searchForum",
+        "getThread",
+        "getNodeList",
+        "getRecentDiscussions"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "advanced": false,
+    "default_value": "{\"searchForum\":\"1\",\"getThread\":\"1\",\"getNodeList\":\"1\",\"getRecentDiscussions\":\"1\"}",
+    "relations": {
+        "ol_agentic_web": 30
+    }
+}

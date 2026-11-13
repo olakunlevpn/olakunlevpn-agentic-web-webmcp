@@ -1,0 +1,9 @@
+{
+    "template": "node_list_forum",
+    "description": "Adds tabindex=-1 to aria-hidden node icon link so it is not focusable",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "class=\"node-icon\" aria-hidden=\"true\"",
+    "replace": "class=\"node-icon\" aria-hidden=\"true\" tabindex=\"-1\""
+}

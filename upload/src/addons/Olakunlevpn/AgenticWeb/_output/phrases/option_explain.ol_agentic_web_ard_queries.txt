@@ -1,0 +1,1 @@
+Example search queries (one per line) to help AI search engines match user questions to your forum topics. 2 to 5 recommended.

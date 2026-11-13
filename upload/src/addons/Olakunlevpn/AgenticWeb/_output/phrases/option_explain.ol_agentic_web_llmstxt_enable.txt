@@ -1,0 +1,1 @@
+Generates clean Markdown files at /llms.txt and /llms-full.txt to help AI crawlers index your forum efficiently.

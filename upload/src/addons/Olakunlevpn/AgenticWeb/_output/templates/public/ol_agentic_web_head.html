@@ -1,0 +1,92 @@
+<xf:if is="$xf.options.ol_agentic_web_enable">
+	<xf:if is="$xf.options.ol_agentic_web_llmstxt_enable">
+		<link rel="llms" type="text/markdown" href="{{ link('canonical:llms-txt') }}" />
+		<link rel="llms-full" type="text/markdown" href="{{ link('canonical:llms-txt/full') }}" />
+	</xf:if>
+
+	<xf:if is="$xf.options.ol_agentic_web_ard_enable">
+		<link rel="ard" type="application/json" href="{{ link('canonical:ard-json') }}" />
+	</xf:if>
+
+	<xf:if is="$xf.options.ol_agentic_web_anticls_enable">
+		<xf:css src="ol_agentic_web.less" />
+	</xf:if>
+
+	<xf:if is="$xf.options.ol_agentic_web_mcp_enable || $xf.options.ol_agentic_web_a11y_labels">
+		<script>
+			window.__AGENTIC_WEB_CONFIG__ = {
+				enabled: {{ $xf.options.ol_agentic_web_enable ? 'true' : 'false' }},
+				mcpEnabled: {{ $xf.options.ol_agentic_web_mcp_enable ? 'true' : 'false' }},
+				apiEndpoint: '{{ link('canonical:webmcp') }}',
+				ardEndpoint: '{{ link('canonical:ard-json') }}',
+				a11yLabels: {{ $xf.options.ol_agentic_web_a11y_labels ? 'true' : 'false' }},
+				a11yLive: {{ $xf.options.ol_agentic_web_a11y_live ? 'true' : 'false' }}
+			};
+			(function() {
+				if (!{{ $xf.options.ol_agentic_web_a11y_labels ? 'true' : 'false' }}) return;
+				function fixNode(n) {
+					if (!n || n.nodeType !== 1) return;
+					var t = (n.tagName || '').toUpperCase();
+					if (t === 'LI') {
+						if (n.getAttribute('role') === 'tabpanel') {
+							n.removeAttribute('role');
+							var c = n.querySelector('div');
+							if (c && !c.getAttribute('role')) {
+								c.setAttribute('role', 'tabpanel');
+								if (!c.getAttribute('aria-label') && !c.getAttribute('aria-labelledby')) c.setAttribute('aria-label', (n.id ? n.id.replace(/[-_]/g, ' ') : 'Tab panel'));
+							}
+						}
+						if (n.hasAttribute('aria-expanded')) n.removeAttribute('aria-expanded');
+					} else if (/^H[1-6]$/.test(t) && n.getAttribute('role') === 'tablist') {
+						var d = document.createElement('div');
+						for (var a = 0; a < n.attributes.length; a++) d.setAttribute(n.attributes[a].name, n.attributes[a].value);
+						while (n.firstChild) d.appendChild(n.firstChild);
+						if (n.parentNode) n.parentNode.replaceChild(d, n);
+						return;
+					} else if (n.getAttribute('aria-hidden') === 'true' && (t === 'A' || t === 'BUTTON' || t === 'INPUT')) {
+						if (n.getAttribute('tabindex') !== '-1') n.setAttribute('tabindex', '-1');
+					}
+					if (n.querySelectorAll) {
+						var lis = n.querySelectorAll('li[role="tabpanel"], li[aria-expanded]');
+						for (var i = 0; i < lis.length; i++) {
+							var li = lis[i];
+							if (li.getAttribute('role') === 'tabpanel') {
+								li.removeAttribute('role');
+								var cd = li.querySelector('div');
+								if (cd && !cd.getAttribute('role')) {
+									cd.setAttribute('role', 'tabpanel');
+									if (!cd.getAttribute('aria-label') && !cd.getAttribute('aria-labelledby')) cd.setAttribute('aria-label', (li.id ? li.id.replace(/[-_]/g, ' ') : 'Tab panel'));
+								}
+							}
+							if (li.hasAttribute('aria-expanded')) li.removeAttribute('aria-expanded');
+						}
+						var hs = n.querySelectorAll('h1[role="tablist"], h2[role="tablist"], h3[role="tablist"], h4[role="tablist"], h5[role="tablist"], h6[role="tablist"]');
+						for (var j = 0; j < hs.length; j++) {
+							var h = hs[j];
+							var rep = document.createElement('div');
+							for (var k = 0; k < h.attributes.length; k++) rep.setAttribute(h.attributes[k].name, h.attributes[k].value);
+							while (h.firstChild) rep.appendChild(h.firstChild);
+							if (h.parentNode) h.parentNode.replaceChild(rep, h);
+						}
+						var hf = n.querySelectorAll('a[aria-hidden="true"]:not([tabindex="-1"])');
+						for (var l = 0; l < hf.length; l++) hf[l].setAttribute('tabindex', '-1');
+					}
+				}
+				if (window.MutationObserver) {
+					var obs = new MutationObserver(function(muts) {
+						for (var m = 0; m < muts.length; m++) {
+							var mu = muts[m];
+							if (mu.type === 'attributes') fixNode(mu.target);
+							else if (mu.type === 'childList') {
+								for (var nd = 0; nd < mu.addedNodes.length; nd++) fixNode(mu.addedNodes[nd]);
+							}
+						}
+					});
+					obs.observe(document.documentElement, { subtree: true, childList: true, attributes: true, attributeFilter: ['role', 'aria-expanded', 'aria-hidden'] });
+				}
+				document.addEventListener('DOMContentLoaded', function() { fixNode(document.body); });
+			})();
+		</script>
+		<xf:js src="olakunlevpn/agentic_web/webmcp.js" min="1" addon="Olakunlevpn/AgenticWeb" />
+	</xf:if>
+</xf:if>

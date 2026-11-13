@@ -1,0 +1,1 @@
+Adds clear labels to icon-only buttons, menus, and links so AI agents and screen readers understand what each control does.

@@ -1,0 +1,1 @@
+Reserves space for ads and dynamic widgets so the page does not jump or shift while loading.

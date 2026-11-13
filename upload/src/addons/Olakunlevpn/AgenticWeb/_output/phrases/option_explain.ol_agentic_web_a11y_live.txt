@@ -1,0 +1,1 @@
+Notifies AI agents about real-time updates (like live statistics and alerts) without needing a full page reload.

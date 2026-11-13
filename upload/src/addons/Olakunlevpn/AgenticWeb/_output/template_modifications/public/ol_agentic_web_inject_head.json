@@ -1,0 +1,9 @@
+{
+    "template": "PAGE_CONTAINER",
+    "description": "Injects WebMCP bridge, llms.txt discovery links, a11y shield, and anti-CLS layout stabilization into PAGE_CONTAINER",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "</head>",
+    "replace": "<xf:include template=\"ol_agentic_web_head\" />\n$0"
+}

@@ -1,0 +1,9 @@
+{
+    "template": "search_form_macros",
+    "description": "Annotates keywords macro input with toolparamdescription",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:textbox type=\"search\" name=\"keywords\"",
+    "replace": "<xf:textbox type=\"search\" name=\"keywords\" toolparamdescription=\"Keywords to search across forum content\""
+}

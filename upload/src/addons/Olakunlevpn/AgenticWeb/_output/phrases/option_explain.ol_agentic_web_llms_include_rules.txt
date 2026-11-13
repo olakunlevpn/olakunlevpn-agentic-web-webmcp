@@ -1,0 +1,1 @@
+Appends your forum rules and terms to llms.txt so visiting AI agents follow community guidelines.

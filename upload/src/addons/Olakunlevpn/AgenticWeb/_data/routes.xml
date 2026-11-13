@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<routes>
+  <route route_type="public" route_prefix="ard-json" controller="Olakunlevpn\AgenticWeb:Ard"/>
+  <route route_type="public" route_prefix="llms-txt" controller="Olakunlevpn\AgenticWeb:Llms"/>
+  <route route_type="public" route_prefix="webmcp" controller="Olakunlevpn\AgenticWeb:WebMcp"/>
+</routes>

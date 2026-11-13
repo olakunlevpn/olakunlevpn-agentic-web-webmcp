@@ -1,0 +1,12 @@
+{
+    "public/ol_agentic_web.less": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "public/ol_agentic_web_head.html": {
+        "version_id": 1000370,
+        "version_string": "1.0.3",
+        "hash": "7e02030df264db39713c612f5a3dcc95"
+    }
+}

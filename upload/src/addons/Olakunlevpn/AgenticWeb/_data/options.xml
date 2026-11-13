@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="ol_agentic_web_a11y_labels" edit_format="onoff" data_type="boolean" advanced="0">
+    <default_value>1</default_value>
+    <relation group_id="ol_agentic_web" display_order="80"/>
+  </option>
+  <option option_id="ol_agentic_web_a11y_live" edit_format="onoff" data_type="boolean" advanced="0">
+    <default_value>1</default_value>
+    <relation group_id="ol_agentic_web" display_order="90"/>
+  </option>
+  <option option_id="ol_agentic_web_ad_min_height" edit_format="spinbox" data_type="positive_integer" advanced="0">
+    <default_value>90</default_value>
+    <relation group_id="ol_agentic_web" display_order="110"/>
+  </option>
+  <option option_id="ol_agentic_web_anticls_enable" edit_format="onoff" data_type="boolean" advanced="0">
+    <default_value>1</default_value>
+    <relation group_id="ol_agentic_web" display_order="100"/>
+  </option>
+  <option option_id="ol_agentic_web_ard_enable" edit_format="onoff" data_type="boolean" advanced="0">
+    <default_value>1</default_value>
+    <relation group_id="ol_agentic_web" display_order="52"/>
+  </option>
+  <option option_id="ol_agentic_web_ard_queries" edit_format="textbox" data_type="string" advanced="0">
+    <default_value>search tutorials and guides
+find latest marketplace discussions
+lookup security tools and configs
+browse forum category list</default_value>
+    <edit_format_params>rows=4</edit_format_params>
+    <relation group_id="ol_agentic_web" display_order="54"/>
+  </option>
+  <option option_id="ol_agentic_web_enable" edit_format="onoff" data_type="boolean" advanced="0">
+    <default_value>1</default_value>
+    <relation group_id="ol_agentic_web" display_order="10"/>
+  </option>
+  <option option_id="ol_agentic_web_llms_include_rules" edit_format="onoff" data_type="boolean" advanced="0">
+    <default_value>1</default_value>
+    <relation group_id="ol_agentic_web" display_order="70"/>
+  </option>
+  <option option_id="ol_agentic_web_llmstxt_enable" edit_format="onoff" data_type="boolean" advanced="0">
+    <default_value>1</default_value>
+    <relation group_id="ol_agentic_web" display_order="50"/>
+  </option>
+  <option option_id="ol_agentic_web_mcp_enable" edit_format="onoff" data_type="boolean" advanced="0">
+    <default_value>1</default_value>
+    <relation group_id="ol_agentic_web" display_order="20"/>
+  </option>
+  <option option_id="ol_agentic_web_rate_limit" edit_format="spinbox" data_type="positive_integer" advanced="0">
+    <default_value>30</default_value>
+    <relation group_id="ol_agentic_web" display_order="40"/>
+  </option>
+  <option option_id="ol_agentic_web_site_summary" edit_format="textbox" data_type="string" advanced="0">
+    <default_value></default_value>
+    <edit_format_params>rows=4</edit_format_params>
+    <relation group_id="ol_agentic_web" display_order="60"/>
+  </option>
+  <option option_id="ol_agentic_web_stats_min_height" edit_format="spinbox" data_type="positive_integer" advanced="0">
+    <default_value>280</default_value>
+    <relation group_id="ol_agentic_web" display_order="120"/>
+  </option>
+  <option option_id="ol_agentic_web_tools" edit_format="checkbox" data_type="array" advanced="0">
+    <default_value>{"searchForum":"1","getThread":"1","getNodeList":"1","getRecentDiscussions":"1"}</default_value>
+    <edit_format_params>searchForum=searchForum (Search discussions and threads)
+getThread=getThread (Fetch structured thread content &amp; replies)
+getNodeList=getNodeList (Fetch forum categories &amp; structure)
+getRecentDiscussions=getRecentDiscussions (Fetch latest active topics)</edit_format_params>
+    <sub_options>searchForum
+getThread
+getNodeList
+getRecentDiscussions</sub_options>
+    <relation group_id="ol_agentic_web" display_order="30"/>
+  </option>
+</options>

@@ -1,0 +1,1 @@
+A short introduction to your forum for AI visitors via llms.txt. Leave empty to use your default board title and description.

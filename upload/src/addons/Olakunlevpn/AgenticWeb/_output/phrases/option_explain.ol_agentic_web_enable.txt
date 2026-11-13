@@ -1,0 +1,1 @@
+Master switch for all AI agent tools, llms.txt endpoints, accessibility enhancements, and layout stabilization.
